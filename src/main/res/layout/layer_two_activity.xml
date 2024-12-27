@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:text="Разработал Козик Г.И.  АС-8с" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Информация заказа"/>
+
+        <TextView
+            android:id="@+id/textRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="Вы ничего не заказывали"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnSetPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3F51B5"
+            android:text="Заполнить анкету"
+            android:textColorLink="#E73838" />
+
+        <Button
+            android:id="@+id/btnCallTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C1C8E7"
+            android:enabled="false"
+            android:foregroundTint="#F44336"
+            android:text="Вызвать такси" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
